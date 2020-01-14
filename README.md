@@ -23,7 +23,7 @@ vscode ssh 远程调试开发环境搭建
         - [注意: 例子工程使用了cmake3.2+](#注意-例子工程使用了cmake32)
         - [先编译项目](#先编译项目)
         - [F9设置断点](#f9设置断点)
-        - [F5调试, 选择C++ (GDB/LLDB), 后面默认即可](#f5调试-选择c-gdblldb-后面默认即可)
+        - [F5调试, 选择C++ (GDB/LLDB), 后面默认即可(选gcc/g++后续会报错 别选错了)](#f5调试-选择c-gdblldb-后面默认即可选gccg后续会报错-别选错了)
         - [得到默认启动json配置文件](#得到默认启动json配置文件)
         - [设置为合理的值, 下图为sample例子调试设置](#设置为合理的值-下图为sample例子调试设置)
         - [F5开始调试](#f5开始调试)
@@ -108,7 +108,7 @@ sudo ln /usr/bin/cmake3 /usr/bin/cmake
 ### 4.7.3. F9设置断点
 ![](images/enterbreak.png)
 
-### 4.7.4. F5调试, 选择C++ (GDB/LLDB), 后面默认即可
+### 4.7.4. F5调试, 选择C++ (GDB/LLDB), 后面默认即可(选gcc/g++后续会报错 别选错了)
 ![](images/debugsetup.png)
 
 ### 4.7.5. 得到默认启动json配置文件
