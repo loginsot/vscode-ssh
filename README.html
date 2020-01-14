@@ -69,29 +69,29 @@ windows</p>
 </div></code></code></pre>
 <h1 id="3-%e5%ae%89%e8%a3%85remote%e7%9b%b8%e5%85%b3%e6%8f%92%e4%bb%b6">3. 安装remote相关插件</h1>
 <p>打开插件页面 选择从VSIX安装插件 或 Ctrl+Shift+P 输入VSIX安装插件
-<img src="file:///e:\system\home\git_dmsoft\vscode-ssh\images\installvsix.png" alt="">
+<img src="images\installvsix.png" alt="">
 (setup目录ms-vscode-remote开头的插件全部安装)
 其他插件看自己需求</p>
 <h1 id="4-%e6%89%93%e5%bc%80%e8%bf%9c%e7%a8%8b%e8%b5%84%e6%ba%90%e7%ae%a1%e7%90%86%e5%99%a8">4. 打开远程资源管理器</h1>
 <h2 id="41-%e9%80%89%e6%8b%a9ssh-targets-%e7%82%b9%e5%8f%b7%e5%88%9b%e5%bb%ba%e4%b8%80%e4%b8%aa%e6%96%b0%e7%9a%84%e9%93%be%e6%8e%a5">4.1. 选择ssh targets 点+号创建一个新的链接</h2>
-<p><img src="file:///e:\system\home\git_dmsoft\vscode-ssh\images\openremote.png" alt=""></p>
+<p><img src="images\openremote.png" alt=""></p>
 <h2 id="42-%e8%be%93%e5%85%a5-ssh-%e8%b4%a6%e5%8f%b7ip%e5%9c%b0%e5%9d%80--a">4.2. 输入 ssh 账号@IP地址 -A</h2>
-<p><img src="file:///e:\system\home\git_dmsoft\vscode-ssh\images\connectssh.png" alt=""></p>
+<p><img src="images\connectssh.png" alt=""></p>
 <p>例:</p>
 <pre><code><code><div>ssh test@10.246.34.79 -A
 </div></code></code></pre>
 <h2 id="43-%e5%8f%b3%e9%94%aeip%e5%9c%b0%e5%9d%80">4.3. 右键IP地址</h2>
-<p><img src="file:///e:\system\home\git_dmsoft\vscode-ssh\images\connecthost.png" alt=""></p>
+<p><img src="images\connecthost.png" alt=""></p>
 <p>例:</p>
 <pre><code><code><div>右键 10.246.34.79 -&gt; connect to host
 </div></code></code></pre>
 <h2 id="44-%e8%be%93%e5%85%a5%e5%af%86%e7%a0%81">4.4. 输入密码</h2>
-<p><img src="file:///e:\system\home\git_dmsoft\vscode-ssh\images\enterpasswd.png" alt="">
+<p><img src="images\enterpasswd.png" alt="">
 链接成功会显示绿色图标
-<img src="file:///e:\system\home\git_dmsoft\vscode-ssh\images\connectok.png" alt=""></p>
+<img src="images\connectok.png" alt=""></p>
 <h2 id="45-%e6%89%93%e5%bc%80%e5%b7%a5%e4%bd%9c%e5%8c%ba">4.5. 打开工作区</h2>
 <p>注意: 这个工作区是指远端工作区 非本地
-<img src="file:///e:\system\home\git_dmsoft\vscode-ssh\images\openwork.png" alt="">
+<img src="images\openwork.png" alt="">
 成功的情况 会显示 [SSH: 10.246.34.79]</p>
 <p>这里我们打开sample工程 便于测试调试功能</p>
 <h2 id="46-%e5%ae%89%e8%a3%85cpptools-linuxvsix%e6%8f%92%e4%bb%b6">4.6. 安装cpptools-linux.vsix插件</h2>
@@ -102,20 +102,20 @@ windows</p>
 sudo ln /usr/bin/cmake3 /usr/bin/cmake
 </div></code></code></pre>
 <h3 id="472-%e5%85%88%e7%bc%96%e8%af%91%e9%a1%b9%e7%9b%ae">4.7.2. 先编译项目</h3>
-<p><img src="file:///e:\system\home\git_dmsoft\vscode-ssh\images\buildsample.png" alt=""></p>
+<p><img src="images\buildsample.png" alt=""></p>
 <h3 id="473-f9%e8%ae%be%e7%bd%ae%e6%96%ad%e7%82%b9">4.7.3. F9设置断点</h3>
-<p><img src="file:///e:\system\home\git_dmsoft\vscode-ssh\images\enterbreak.png" alt=""></p>
+<p><img src="images\enterbreak.png" alt=""></p>
 <h3 id="474-f5%e8%b0%83%e8%af%95-%e9%80%89%e6%8b%a9c-gdblldb-%e5%90%8e%e9%9d%a2%e9%bb%98%e8%ae%a4%e5%8d%b3%e5%8f%af%e9%80%89gccg%e5%90%8e%e7%bb%ad%e4%bc%9a%e6%8a%a5%e9%94%99-%e5%88%ab%e9%80%89%e9%94%99%e4%ba%86">4.7.4. F5调试, 选择C++ (GDB/LLDB), 后面默认即可(选gcc/g++后续会报错 别选错了)</h3>
-<p><img src="file:///e:\system\home\git_dmsoft\vscode-ssh\images\debugsetup.png" alt=""></p>
+<p><img src="images\debugsetup.png" alt=""></p>
 <h3 id="475-%e5%be%97%e5%88%b0%e9%bb%98%e8%ae%a4%e5%90%af%e5%8a%a8json%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6">4.7.5. 得到默认启动json配置文件</h3>
-<p><img src="file:///e:\system\home\git_dmsoft\vscode-ssh\images\defaultlaunch.png" alt=""></p>
+<p><img src="images\defaultlaunch.png" alt=""></p>
 <h3 id="476-%e8%ae%be%e7%bd%ae%e4%b8%ba%e5%90%88%e7%90%86%e7%9a%84%e5%80%bc-%e4%b8%8b%e5%9b%be%e4%b8%basample%e4%be%8b%e5%ad%90%e8%b0%83%e8%af%95%e8%ae%be%e7%bd%ae">4.7.6. 设置为合理的值, 下图为sample例子调试设置</h3>
-<p><img src="file:///e:\system\home\git_dmsoft\vscode-ssh\images\samplelaunch.png" alt=""></p>
+<p><img src="images\samplelaunch.png" alt=""></p>
 <h3 id="477-f5%e5%bc%80%e5%a7%8b%e8%b0%83%e8%af%95">4.7.7. F5开始调试</h3>
-<p><img src="file:///e:\system\home\git_dmsoft\vscode-ssh\images\sampledebug.png" alt=""></p>
+<p><img src="images\sampledebug.png" alt=""></p>
 <h2 id="48-end">4.8. END</h2>
 <p>注意事项: 在外网使用如果本身没有FQ, 请关闭更新, 原因是.vscode-server-insiders.zip的版本与客户端的版本必须保持完全一致.
-<img src="file:///e:\system\home\git_dmsoft\vscode-ssh\images\disableupdate.png" alt=""></p>
+<img src="images\disableupdate.png" alt=""></p>
 
     </body>
     </html>
